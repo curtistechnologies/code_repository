@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bbec0e1-13d6-47ef-a4cf-ebf37dd5bfff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk_creation_tags.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk_create_cloudformation_cmd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk_create_cloudformation_cmd.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws/cloudformation/s3/s3_create_cloudformation_cmd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aws/cloudformation/s3/s3_create_cloudformation_cmd.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,12 +35,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="s3_bucket_creation.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aws/cloudformation/s3/s3_bucket_creation.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="543">
-              <caret line="62" column="1" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="62" selection-end-column="1" />
+              <caret line="62" column="1" selection-start-line="46" selection-start-column="3" selection-end-line="62" selection-end-column="1" />
               <folding>
                 <element signature="n#!!block;n#S3BucketName#0;n#!!block;n#Parameters#0;n#!!top" />
                 <element signature="n#!!block;n#S3BucketUsers#0;n#!!block;n#Parameters#0;n#!!top" />
@@ -52,7 +52,7 @@
       <file leaf-file-name="beanstalk-catalog-springboot-application.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk-catalog-springboot-application.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
+            <state relative-caret-position="975">
               <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
               <folding>
                 <element signature="n#!!block;n#Parameters#0;n#!!top" />
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beanstalk_create_cloudformation_cmd.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="beanstalk_create_cloudformation_cmd.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk_create_cloudformation_cmd.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="228" selection-start-line="1" selection-start-column="228" selection-end-line="1" selection-end-column="228" />
+            <state relative-caret-position="30">
+              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -82,17 +82,17 @@
       <file leaf-file-name="s3_create_cloudformation_cmd.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aws/cloudformation/s3/s3_create_cloudformation_cmd.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="66" selection-start-column="66" selection-end-column="66" />
+            <state relative-caret-position="15">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s3_bucket_creation_parameters.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="s3_bucket_creation_parameters.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aws/cloudformation/s3/s3_bucket_creation_parameters.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -104,11 +104,6 @@
               <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beanstalk_creation_tags.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk_creation_tags.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -142,12 +137,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/aws/cloudformation/s3/s3_bucket_creation.json" />
-        <option value="$PROJECT_DIR$/aws/cloudformation/s3/s3_bucket_creation_parameters.json" />
         <option value="$PROJECT_DIR$/aws/cloudformation/s3/s3_bucket_creation_tags.json" />
         <option value="$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk-catalog-parameters.json" />
-        <option value="$PROJECT_DIR$/aws/cloudformation/s3/s3_create_cloudformation_cmd.txt" />
         <option value="$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk-catalog-springboot-application.json" />
         <option value="$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk_create_cloudformation_cmd.txt" />
+        <option value="$PROJECT_DIR$/aws/cloudformation/s3/s3_bucket_creation_parameters.json" />
+        <option value="$PROJECT_DIR$/aws/cloudformation/s3/s3_create_cloudformation_cmd.txt" />
       </list>
     </option>
   </component>
@@ -171,7 +166,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,8 +205,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,47 +300,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525454760491</updated>
-      <workItem from="1525454764332" duration="3845000" />
+      <workItem from="1525454764332" duration="4432000" />
+      <workItem from="1525466333667" duration="364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3845000" />
+    <option name="totallyTimeSpent" value="4796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="-876" width="1440" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Amazon EC2" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="TeamCity" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Amazon EC2" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="TeamCity" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +352,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/aws/cloudformation/s3/s3_bucket_creation.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="62" column="1" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="62" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#S3BucketName#0;n#!!block;n#Parameters#0;n#!!top" />
+            <element signature="n#!!block;n#S3BucketUsers#0;n#!!block;n#Parameters#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk-catalog-springboot-application.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!block;n#Parameters#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk-catalog-parameters.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -376,10 +394,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aws/cloudformation/s3/s3_bucket_creation_tags.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk_create_cloudformation_cmd.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="62" lean-forward="true" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk-catalog-parameters.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk-catalog-springboot-application.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!block;n#Parameters#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk_create_cloudformation_cmd.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aws/cloudformation/s3/s3_bucket_creation.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
-          <caret line="62" column="1" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="62" selection-end-column="1" />
+          <caret line="62" column="1" selection-start-line="46" selection-start-column="3" selection-end-line="62" selection-end-column="1" />
           <folding>
             <element signature="n#!!block;n#S3BucketName#0;n#!!block;n#Parameters#0;n#!!top" />
             <element signature="n#!!block;n#S3BucketUsers#0;n#!!block;n#Parameters#0;n#!!top" />
@@ -387,13 +443,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk-catalog-springboot-application.json">
+    <entry file="file://$PROJECT_DIR$/aws/cloudformation/s3/s3_create_cloudformation_cmd.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!block;n#Parameters#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -404,13 +457,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk_creation_tags.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws/cloudformation/elastic beanstalk/beanstalk_create_cloudformation_cmd.txt">
+    <entry file="file://$PROJECT_DIR$/aws/cloudformation/s3/s3_bucket_creation_parameters.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="228" selection-start-line="1" selection-start-column="228" selection-end-line="1" selection-end-column="228" />
+        <state relative-caret-position="105">
+          <caret line="7" column="92" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
         </state>
       </provider>
     </entry>

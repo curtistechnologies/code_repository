@@ -1,1 +1,3 @@
-aws cloudformation create-stack --stack-name s3_bucket_creation --template-body file://s3_bucket_creation.json --parameters file://s3_bucket_creation_parameters.json --tags file://s3_bucket_creation_tags.json --capabilities CAPABILITY_IAM
+aws cloudformation create-stack --stack-name s3-bucket-creation --template-body file://s3_bucket_creation.json --parameters file://s3_bucket_creation_parameters.json --tags file://s3_bucket_creation_tags.json --capabilities CAPABILITY_IAM
+aws cloudformation update-stack --stack-name s3-bucket-creation --template-body file://s3_bucket_creation.json --parameters file://s3_bucket_creation_parameters.json --tags file://s3_bucket_creation_tags.json --capabilities CAPABILITY_IAM
+aws cloudformation delete-stack --stack-name s3-bucket-creation
