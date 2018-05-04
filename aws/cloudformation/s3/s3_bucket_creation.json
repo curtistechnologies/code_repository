@@ -1,0 +1,63 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "Template to create a S3 bucket",
+  "Parameters": {
+    "S3BucketName": {
+      "Description": "S3 BucketName",
+      "Type": "String"
+    },
+    "S3BucketUsers": {
+      "Description": "Comma separated names of S3 Bucket Users",
+      "Type": "CommaDelimitedList"
+    }
+  },
+  "Resources": {
+    "S3Bucket": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {
+        "AccessControl": "Private",
+        "BucketName": {
+          "Ref": "S3BucketName"
+        },
+        "VersioningConfiguration": {
+          "Status" : "Enabled"
+        }
+      }
+    },
+    "S3BucketPolicy": {
+      "Type": "AWS::S3::BucketPolicy",
+      "Properties": {
+        "Bucket" : { "Ref": "S3Bucket" },
+        "PolicyDocument" : {
+          "Version":"2012-10-17",
+          "Statement":[
+            {
+              "Sid":"BucketPolicy",
+              "Effect":"Allow",
+              "Principal": {
+                "AWS" : {"Ref": "S3BucketUsers"}
+              },
+              "Action":"*",
+              "Resource": { "Fn::Join" : ["", ["arn:aws:s3:::", { "Ref" : "S3Bucket" } , "/*" ]]}
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Outputs": {
+    "S3BucketNameUsed":{
+      "Description": "S3 bucket name",
+      "Value" : { "Ref" : "S3BucketName"}
+    },
+    "S3BucketArn" :{
+      "Description" : "S3 Bucket Arn",
+      "Value" : {
+        "Fn::GetAtt": [
+          "S3Bucket",
+          "Arn"
+        ]
+      }
+    }
+  }
+}

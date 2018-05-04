@@ -1,0 +1,10 @@
+[
+  {
+    "ParameterKey": "S3BucketName",
+    "ParameterValue": "s3-my-bucket"
+  },
+  {
+    "ParameterKey": "S3BucketUsers",
+    "ParameterValue": "arn:aws:iam::xxxxxxxxxxxx:user/xxx,arn:aws:iam::xxxxxxxxxxxx:user/yyy"
+  }
+]
