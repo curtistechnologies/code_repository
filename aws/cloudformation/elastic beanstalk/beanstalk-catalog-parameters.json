@@ -1,0 +1,10 @@
+[
+  {
+    "ParameterKey": "S3BucketName",
+    "ParameterValue": "catalog-springboot"
+  },
+  {
+    "ParameterKey": "S3FileName",
+    "ParameterValue": "catalog-spring-boot-0.0.1-SNAPSHOT.jar"
+  }
+]

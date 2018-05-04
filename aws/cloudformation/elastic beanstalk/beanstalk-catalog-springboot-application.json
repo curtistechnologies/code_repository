@@ -1,0 +1,89 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Parameters": {
+    "S3BucketName": {
+      "Description": "S3 BucketName",
+      "Type": "String"
+    },
+    "S3FileName": {
+      "Description": "Name of the jar/war file",
+      "Type": "String"
+    }
+  },
+  "Resources": {
+    "sampleApplication": {
+      "Type": "AWS::ElasticBeanstalk::Application",
+      "Properties": {
+        "Description": "AWS Elastic Beanstalk Sample Java SpringBoot Application"
+      }
+    },
+    "sampleApplicationVersion": {
+      "Type": "AWS::ElasticBeanstalk::ApplicationVersion",
+      "Properties": {
+        "ApplicationName": { "Ref": "sampleApplication" },
+        "Description": "AWS ElasticBeanstalk Sample Java SpringBoot Application Version",
+        "SourceBundle": {
+          "S3Bucket": { "Ref" : "S3BucketName"},
+          "S3Key": {"Ref" : "S3FileName"}
+        }
+      }
+    },
+    "sampleConfigurationTemplate": {
+      "Type": "AWS::ElasticBeanstalk::ConfigurationTemplate",
+      "Properties": {
+        "ApplicationName": { "Ref": "sampleApplication" },
+        "Description": "AWS ElasticBeanstalk Sample Java SpringBoot Configuration Template",
+        "OptionSettings": [
+          {
+            "Namespace": "aws:autoscaling:asg",
+            "OptionName": "MinSize",
+            "Value": "2"
+          },
+          {
+            "Namespace": "aws:autoscaling:asg",
+            "OptionName": "MaxSize",
+            "Value": "6"
+          },
+          {
+            "Namespace": "aws:elasticbeanstalk:environment",
+            "OptionName": "EnvironmentType",
+            "Value": "LoadBalanced"
+          }
+        ],
+        "SolutionStackName": "64bit Amazon Linux 2017.09 v2.6.8 running Java 8"
+      }
+    },
+    "sampleEnvironment": {
+      "Type": "AWS::ElasticBeanstalk::Environment",
+      "Properties": {
+        "ApplicationName": { "Ref": "sampleApplication" },
+        "Description": "AWS ElasticBeanstalk Sample Java SpringBoot Environment",
+        "TemplateName": { "Ref": "sampleConfigurationTemplate" },
+        "VersionLabel": { "Ref": "sampleApplicationVersion" }
+      }
+    }
+  },
+  "Outputs": {
+    "DevURL": {
+      "Description": "The URL of the DEV Elastic Beanstalk environment",
+      "Value": {
+        "Fn::Join": [
+          "",
+          [
+            {
+              "Fn::GetAtt": [
+                "sampleEnvironment",
+                "EndpointURL"
+              ]
+            }
+          ]
+        ]
+      },
+      "Export": {
+        "Name": {
+          "Fn::Sub": "${AWS::StackName}-EndpointURL"
+        }
+      }
+    }
+  }
+}
